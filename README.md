@@ -21,7 +21,7 @@ Este projeto é uma aplicação fitness que ajuda os usuários a gerenciar suas 
 
 - Cadastro e autenticação de usuários
 - Criação e gerenciamento de rotinas de exercícios
-- Registro de dietas e refeições
+- Registro de exercícios realizados e não realizados
 - Acompanhamento do progresso físico (peso, medidas, etc.)
 - Integração com APIs de terceiros para informações adicionais (ex: nutrição, exercícios)
 
