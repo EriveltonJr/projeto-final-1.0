@@ -18,19 +18,19 @@ const Hero = () => {
           id: 1,
           bgImg: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
           slogan: "Mantenha seu corpo saudável",
-          title: "Burning",
+          title: "Constância",
           desc: "Prepare-se para queimar muita gordura com nossos produtos de alta qualidade.",
         },
         {
           id: 2,
-          bgImg: "https://source.unsplash.com/random/?gym",
+          bgImg: "https://images.unsplash.com/photo-1484452330304-377cdeb05340?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           slogan: "Apenas acredite em",
           title: "Você Mesmo",
           desc: "Estamos aqui para ajudá-lo a alcançar seus objetivos.",
         },
         {
           id: 3,
-          bgImg: "https://source.unsplash.com/random/?yoga",
+          bgImg: "https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
           slogan: "Faça seu corpo crescer",
           title: "Força",
           desc: "Deixe seu corpo mais forte com nossos produtos de alta qualidade.",
@@ -67,6 +67,9 @@ const Hero = () => {
                 <h5 className="lg:text-4xl md:text-3xl sm:text-2xl text-2xl text-indigo-400 font-semibold mb-2 uppercase">
                   Mantenha seu corpo
                 </h5>
+                <h1 className="lg:text-8xl md:text-7xl sm:text-5xl text-5xl text-white font-bold mb-4 uppercase">
+                  Constância
+                </h1>
               </div>
             </SwiperSlide>
         </Swiper>
