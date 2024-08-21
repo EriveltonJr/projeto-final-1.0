@@ -7,7 +7,7 @@ const About = () => {
         <img
           src="https://source.unsplash.com/random/?gym"
           alt="About image"
-          className="w-full lg:h-[70vh] md:h-[68vh] sm:h-[60vh] h-[55vh] object-cover"
+          className="w-full lg:h-[70vh] md:h-[68vh] sm:h-[60vh] h-[55vh]"
         />
       </div>
     </div>

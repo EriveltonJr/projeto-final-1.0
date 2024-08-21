@@ -42,26 +42,31 @@ const Hero = () => {
             <Swiper
             spaceBetween={30}
             centeredSlides={true}
+            loop = {true}
             autoplay={{
             delay: 2500,
             disableOnInteraction: false,
-            }}
-            pagination={{
-            clickable: true,
             }}
             navigation={true}
             modules={[Autoplay, Navigation]}
             className="mySwiper w-full h-auto"
         >
-            <SwiperSlide>Slide 1</SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
-            <SwiperSlide>Slide 5</SwiperSlide>
-            <SwiperSlide>Slide 6</SwiperSlide>
-            <SwiperSlide>Slide 7</SwiperSlide>
-            <SwiperSlide>Slide 8</SwiperSlide>
-            <SwiperSlide>Slide 9</SwiperSlide>
+            <SwiperSlide 
+              className="w-full h-[70vh] relative" 
+              style={{ backgroundImage: "url('./images/hero-1.jpg')",
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                backgroundRepeat: "no-repeat" }}
+            >
+
+              <div className="w-full h-full bg-black/80 absolute top-0 left-0 -z-10"></div>
+
+              <div className="w-full h-full flex justify-center items-center flex-col z-10 lg:px-24 md:px-16 sm:px-6 px-4">
+                <h5 className="lg:text-4xl md:text-3xl sm:text-2xl text-2xl text-indigo-400 font-semibold mb-2 uppercase">
+                  Mantenha seu corpo
+                </h5>
+              </div>
+            </SwiperSlide>
         </Swiper>
     </div>
     </>
