@@ -16,7 +16,7 @@ const Hero = () => {
     const swiperData = [
         {
           id: 1,
-          bgImg: "https://source.unsplash.com/random/?fitness",
+          bgImg: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
           slogan: "Mantenha seu corpo saudável",
           title: "Burning",
           desc: "Prepare-se para queimar muita gordura com nossos produtos de alta qualidade.",
@@ -53,7 +53,9 @@ const Hero = () => {
         >
             <SwiperSlide 
               className="w-full h-[70vh] relative" 
-              style={{ backgroundImage: "url('./images/hero-1.jpg')",
+              style={{ 
+                backgroundImage: 
+                  "url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D')",
                 backgroundPosition: "center",
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat" }}
