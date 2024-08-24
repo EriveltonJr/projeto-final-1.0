@@ -1,4 +1,5 @@
 import React from "react";
+import PrimaryBtn from "../../components/Button/PrimaryBtn";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -55,7 +56,7 @@ const Hero = () => {
               className="w-full h-[70vh] relative" 
               style={{ 
                 backgroundImage: 
-                  "url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D')",
+                  "url('https://images.unsplash.com/photo-1519859660545-3dea8ddf683c?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
                 backgroundPosition: "center",
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat" }}
@@ -70,6 +71,12 @@ const Hero = () => {
                 <h1 className="lg:text-8xl md:text-7xl sm:text-5xl text-5xl text-white font-bold mb-4 uppercase">
                   Constância
                 </h1>
+                <p className="lg:text-lg md:text-base sm:text-base text-base text-gray-500 font-medium mb-6 text-center">
+                  Prepare-se para queimar muita gordura com nossos produtos de alta qualidade.
+                </p>
+                <PrimaryBtn className="lg:w-[15%] md:w-[35%] sm:w-[75%] w-[80%] h-14 mt-5 text-xl font-semibold rounded-full">
+                  Saiba mais
+                </PrimaryBtn>
               </div>
             </SwiperSlide>
         </Swiper>
