@@ -16,7 +16,7 @@ const About = () => {
         />
       </div>
       <div className ="lg:w-[50%] md:w-full sm:w-full w-full h-auto lg:text-star md:text-star sm:text-star text-center">
-        <h6 className="text-lg font-medium text-gray-200 flex items lg:justify-start md:justify-start sm:justify-start justify-center gap-x-2 mb-3">
+        <h6 className="text-lg font-medium text-gray-200 flex items-center lg:justify-start md:justify-start sm:justify-start justify-center gap-x-2 mb-3">
           <Dumbbell className = "w-4 h-4 -rotate-45 text-indigo-600"/>
           Sobre nós
         </h6>
@@ -26,7 +26,7 @@ const About = () => {
           Resultados sem esforço, ganhos eficientes: construa seu corpo ideal, mais rápido e com eficácia
         </h1>
 
-        <p className="lg:text-base md:text-base sm:text-sm text-sm text-gray-500 font-medium mb-4">
+        <p className="lg:text-base md:text-base sm:text-sm text-sm text-gray-500 font-medium mb-4 text-justify">
           Transforme sua rotina e alcance seus objetivos de forma rápida e eficiente com o nosso Fitness App. 
           Projetado para todos os níveis de condicionamento físico, nosso site oferece treinos personalizados, orientações nutricionais e acompanhamento em tempo real para ajudá-lo a construir o corpo que você sempre desejou.
           Seja você um iniciante ou um atleta experiente, aqui você encontrará as ferramentas e o suporte necessários para atingir seus resultados de forma segura e eficaz.
