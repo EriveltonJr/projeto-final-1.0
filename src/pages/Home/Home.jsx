@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "./Hero";
 import About from "./About";
+import IMC from "./IMC";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <div className="w-full h-auto">
         <Hero/>
         <About/>
+        <IMC/>
       </div>
     </>
   );
