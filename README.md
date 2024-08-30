@@ -2,10 +2,12 @@
 
 Este projeto foi desenvolvido como parte do curso de Tecnólogo em Análise e Desenvolvimento de Sistemas, na disciplina de Programação para Internet I, com o professor Jesiel Viana.
 
-## Equipe
+## Front-End
 
 - Francisco Erivelton
 - Maria Emília
+
+## Back-End
 - Rodrigo Alves
 - Matheus Loran
 
