@@ -2,11 +2,23 @@ import React, { useState } from 'react';
 import { Dumbbell } from 'lucide-react';
 import Label from '../../components/Label/Label';
 import Input from '../../components/Form/Input';
+import SecondaryBtn from '../../components/Button/SecondaryBtn';
 
 const IMC = () => {
   const [peso, setPeso] = useState("");
   const [altura, setAltura] = useState("");
+  const [imc, setImc] = useState(null);
 
+  const calcularIMC = () => {f
+    if (peso === "" || altura === "") {
+      alert("Preencha todos os campos do formulário IMC");
+      return;
+    }
+    const imc = (peso / ((altura * altura) / 10000)).toFixed(2);
+    setImc(imc);
+  };
+
+  
   return (
     <div className="w-full h-auto items-center lg:py-16 
     md:py-14 sm:py-12 py-10 lg:px-24 md:px-16 sm:px-6 px-4">
@@ -44,6 +56,15 @@ const IMC = () => {
               onChange={(e) => setAltura(e.target.value)}
               />
           </div>
+          <div className="lg:w-[20%] md:w-[35%] sm:w-[50%] w-full h-auto p-2">
+            <SecondaryBtn 
+              type="button" 
+              className="w-full h-11 justify-center"
+              onClick={calcularIMC}
+            >
+              Calcular IMC   
+            </SecondaryBtn>
+          </div>  
         </div>
       </div>
     </div>
