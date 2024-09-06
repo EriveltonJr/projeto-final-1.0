@@ -3,7 +3,7 @@ import Hero from "./Hero";
 import About from "./About";
 import IMC from "./IMC";
 import Services from "./Services";
-import Trainers from "./Trainers";
+import Contatos from "./Contatos";
 
 // Irá Redirecionar para as seções a partir da Navbar
 const HomeSections = () => {  // Novo componente para as seções
@@ -25,8 +25,8 @@ const HomeSections = () => {  // Novo componente para as seções
         <Services />
       </section>
 
-      <section id="trainers" className="flex items-center justify-center">
-        <Trainers />
+      <section id="contatos" className="flex items-center justify-center">
+        <Contatos />
       </section>
 
       {/* Outras Seções */}
