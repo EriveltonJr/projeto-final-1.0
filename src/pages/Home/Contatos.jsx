@@ -9,24 +9,28 @@ const Contatos = () => {
           contatoImg: "https://avatars.githubusercontent.com/u/100245434?s=400&u=49c2423bc7fac113028d5aa9d8ec868f9349bea9&v=4",
           name: "Erivelton Jr",
           Profissão: "Dev. Full Stack",
+          github: "https://github.com/EriveltonJr" 
         },
         {
           id: 2,
           contatoImg: "https://avatars.githubusercontent.com/u/127367851?v=4",
           name: "Maria Emília",
           Profissão: "Dev. Front-end",
+          github: "https://github.com/Maria-Emilia1" 
         },
         {
           id: 3,
           contatoImg: "https://avatars.githubusercontent.com/u/129105584?v=4",
           name: "Matheus Loran",
           Profissão: "Dev. Back-end",
+          github: "https://github.com/MatheusLoran573" 
         },
         {
           id: 4,
           contatoImg: "https://avatars.githubusercontent.com/u/136371023?v=4",
           name: "Rodrigo Alves",
           Profissão: "Dev. Back-end",
+          github: "https://github.com/Rodrigoaaalves" 
         },
       ];
       
@@ -40,15 +44,17 @@ const Contatos = () => {
         </h6>
         <div className="w-full h-auto flex items-center justify-center lg:gap-x-8 md:gap-x-6 sm:gap-x-4 gap-x-3 lg:gap-y-8 md:gap-y-6 sm:gap-y-4 gap-y-3 flex-wrap mb-10">
           {contatoData.map((data) => (
-            <div key = {data.id} className="lg:w-[23%] md:w-[48%] sm:w-[48%] w-full lg:h-[50vh] md:h-[53vh] sm:h-[58vh] h-[60vh] rounded-xl overflow-hidden relative">
+            <div key={data.id} className="lg:w-[23%] md:w-[48%] sm:w-[48%] w-full lg:h-[50vh] md:h-[53vh] sm:h-[58vh] h-[60vh] rounded-xl overflow-hidden relative">
               <img 
                 src={data.contatoImg} 
                 alt="contato image" 
                 className="w-full h-full object-cover" 
               />
               <div className="w-full h-auto bg-gray-900/70 absolute bottom-0 left-0 py-4 px-2 flex items-center justify-center flex-col">
-                  <h1 className="text-xl text-white fonte-semibold">{data.name}</h1>
-                  <p className="tex-sm text-gray-300">{data.Profissão}</p>
+                  <a href={data.github} target="_blank" rel="noopener noreferrer">
+                    <h1 className="text-xl text-white font-semibold hover:underline">{data.name}</h1>
+                  </a>
+                  <p className="text-sm text-gray-300">{data.Profissão}</p>
               </div>
             </div>
           ))}
@@ -58,4 +64,4 @@ const Contatos = () => {
   )
 }
 
-export default Contatos
+export default Contatos;
