@@ -27,8 +27,8 @@ const Navbar = () => {
       link: "plan",
     },
     {
-      name: "Contact",
-      link: "contact",
+      name: "Contatos",
+      link: "contatos",
     },
   ];
 
