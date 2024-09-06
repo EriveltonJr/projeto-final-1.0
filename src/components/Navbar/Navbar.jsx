@@ -7,11 +7,11 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   const navItems = [
     {
-      name: "Home",
+      name: "Inicio",
       link: "home",
     },
     {
-      name: "About",
+      name: "Sobre",
       link: "about",
     },
     {
@@ -19,11 +19,11 @@ const Navbar = () => {
       link: "imc",
     },
     {
-      name: "Services",
+      name: "Serviços",
       link: "services",
     },
     {
-      name: "Plan",
+      name: "Planos",
       link: "plan",
     },
     {
@@ -82,7 +82,7 @@ const Navbar = () => {
                 </button>
               </li>
             ))}
-            <PrimaryBtn>Torne-se Membro</PrimaryBtn>
+            <PrimaryBtn>Login</PrimaryBtn>
           </ul>
         </div>
       </div>
