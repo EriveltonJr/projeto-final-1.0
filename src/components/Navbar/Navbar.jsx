@@ -23,10 +23,6 @@ const Navbar = () => {
       link: "services",
     },
     {
-      name: "Planos",
-      link: "plan",
-    },
-    {
       name: "Contatos",
       link: "contatos",
     },
