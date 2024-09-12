@@ -27,7 +27,8 @@ Este projeto é uma aplicação fitness que ajuda os usuários a gerenciar suas 
 - Acompanhamento do progresso físico (peso, medidas, etc.)
 - Integração com APIs de terceiros para informações adicionais (ex: nutrição, exercícios)
 
-## Estrutura do Projeto
+## Figma
+- https://www.figma.com/design/T1E2yK79AEXKNfj1gHc66I/Projeto-FitnessApp?node-id=0-1&t=EgfSBY0JX1by3bZN-1
 
 - **src/**: Código-fonte da aplicação
 - **public/**: Arquivos públicos (HTML, imagens, etc.)
