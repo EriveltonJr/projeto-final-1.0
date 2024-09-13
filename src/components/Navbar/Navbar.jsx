@@ -28,22 +28,25 @@ const Navbar = () => {
     },
   ];
 
-    const handleScroll = (id) => {
-      const element = document.getElementById(id);
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
-      }
-      setNavbar(false); // Fecha o menu após clicar em um link na Navbar
-    };
+  const handleScroll = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+    setNavbar(false); // Fecha o menu após clicar em um link na Navbar
+  };
 
   return (
-    <nav className="w-full h-auto bg-[#1d1d1d] shadow-none lg:px-24 md:px-16 sm:px-6 px-4 py-3">
+    <nav className="w-full h-auto bg-[#1d1d1d] shadow-none lg:px-24 md:px-16 sm:px-6 px-4 py-3 sticky top-0 left-0 z-50">
       <div className="justify-between mx-auto lg:w-full md:items-center md:flex">
         {/* Navbar logo & toggle button section */}
         <div>
           <div className="flex items-center justify-between py-1 md:py-1 md:block">
             {/* Logo section */}
-            <Link to="/" className="text-3xl text-indigo-600 font-semibold tracking-[0.1rem] flex items-end gap-x-1 relative">
+            <Link
+              to="/"
+              className="text-3xl text-indigo-600 font-semibold tracking-[0.1rem] flex items-end gap-x-1 relative"
+            >
               G<span className="text-xl font-bold text-gray-300">Y</span>M
               <Dumbbell className="w-5 h-4 text-indigo-600 -rotate-45 absolute top-0 left-[46%] translate-x-[-50%]" />
             </Link>

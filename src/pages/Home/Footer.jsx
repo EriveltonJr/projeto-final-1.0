@@ -99,7 +99,7 @@ const Footer  = () => {
         </div>
 
         {/* Copyright */}
-        <div className="w-full flex flex-col items-center justify-between py-4 border-t border-gray-400">
+        <div className="w-full flex flex-col items-center justify-between py-4 border-t mt-auto border-gray-400" style={{ position: 'relative', bottom: 0 }} >
           <p className="text-sm text-gray-400 font-normal">
             © 2024 EriveltonJr. Todos os direitos reservados.
           </p>
