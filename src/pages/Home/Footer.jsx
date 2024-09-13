@@ -42,28 +42,28 @@ const Footer  = () => {
               <div className="w-full h-auto">
                 <ul className="w-full h-auto space-y-2">
                   <li className="w-full h-auto text-gray-400 hover:text-indigo-600 ease-out duration-300 cursor-pointer text-center">
-                    Musculação
+                    <a href="#services">Musculação</a>
                   </li>
                   <li className="w-full h-auto text-gray-400 hover:text-indigo-600 ease-out duration-300 cursor-pointer text-center">
-                    Ginástica
+                    <a href="#services">Ginástica</a>
                   </li>
                   <li className="w-full h-auto text-gray-400 hover:text-indigo-600 ease-out duration-300 cursor-pointer text-center">
-                    Natação
+                    <a href="#services">Natação</a>
                   </li>
                   <li className="w-full h-auto text-gray-400 hover:text-indigo-600 ease-out duration-300 cursor-pointer text-center">
-                    CrossFit
+                    <a href="#services">CrossFit</a>
                   </li>
                   <li className="w-full h-auto text-gray-400 hover:text-indigo-600 ease-out duration-300 cursor-pointer text-center">
-                    Corrida
+                    <a href="#services">Corrida</a>
                   </li>
                   <li className="w-full h-auto text-gray-400 hover:text-indigo-600 ease-out duration-300 cursor-pointer text-center">
-                    Dança
+                    <a href="#services">Dança</a>
                   </li>
                   <li className="w-full h-auto text-gray-400 hover:text-indigo-600 ease-out duration-300 cursor-pointer text-center">
-                    Boxe
+                    <a href="#services">Boxe</a>
                   </li>
                   <li className="w-full h-auto text-gray-400 hover:text-indigo-600 ease-out duration-300 cursor-pointer text-center">
-                    Yoga
+                    <a href="#services">Yoga</a>
                   </li>
                 </ul>
               </div>
@@ -75,22 +75,22 @@ const Footer  = () => {
               <div className="w-full h-auto">
                 <ul className="w-full h-auto space-y-2">
                   <li className="w-full h-auto text-gray-400 hover:text-indigo-600 ease-out duration-300 cursor-pointer text-center">
-                    Início
+                    <a href="#hero">Início</a>
                   </li>
                   <li className="w-full h-auto text-gray-400 hover:text-indigo-600 ease-out duration-300 cursor-pointer text-center">
-                    Sobre
+                    <a href="#about">Sobre</a>
                   </li>
                   <li className="w-full h-auto text-gray-400 hover:text-indigo-600 ease-out duration-300 cursor-pointer text-center">
-                    IMC
+                    <a href="#imc">IMC</a>
                   </li>
                   <li className="w-full h-auto text-gray-400 hover:text-indigo-600 ease-out duration-300 cursor-pointer text-center">
-                    Serviços
+                    <a href="#services">Serviços</a>
                   </li>
                   <li className="w-full h-auto text-gray-400 hover:text-indigo-600 ease-out duration-300 cursor-pointer text-center">
-                    Contatos
+                    <a href="#contatos">Contatos</a>
                   </li>
                   <li className="w-full h-auto text-gray-400 hover:text-indigo-600 ease-out duration-300 cursor-pointer text-center">
-                    Login
+                    <a href="#login">Login</a>
                   </li>
                 </ul>
               </div>
