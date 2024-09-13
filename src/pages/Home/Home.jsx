@@ -4,6 +4,7 @@ import About from "./About";
 import IMC from "./IMC";
 import Services from "./Services";
 import Contatos from "./Contatos";
+import Footer from "./Footer";
 
 // Irá Redirecionar para as seções a partir da Navbar
 const HomeSections = () => {  // Novo componente para as seções
@@ -27,6 +28,10 @@ const HomeSections = () => {  // Novo componente para as seções
 
       <section id="contatos" className="flex items-center justify-center">
         <Contatos />
+      </section>
+
+      <section id="footer" className="flex items-center justify-center">
+        <Footer />
       </section>
 
       {/* Outras Seções */}
