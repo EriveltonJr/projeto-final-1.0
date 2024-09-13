@@ -5,7 +5,7 @@ import { Dumbbell, Github, Instagram, Linkedin, MailOpen, MapPin, Phone } from '
 const Footer  = () => {
   return (
     <>
-      <div className="w-full h-auto flex items-center justify-center bg-black/30 
+      <div className="w-full h-auto flex items-center justify-center bg-black/10 
       flex-col py-16 lg:px-24 md:px-16 sm:px-6 px-4">
         <div className="w-full h-auto flex items-start lg:justify-between 
         md:justify-between sm:justify-center justify-center gap-5 mb-10 flex-wrap">
