@@ -37,7 +37,7 @@ const Footer  = () => {
           <div className="lg:w-[65%] md:w-[65%] sm:w-full w-full h-auto p-2 flex items-center lg:justify-end md:justify-end sm:justify-center justify-center flex-wrap gap-">
             <div className="lg:w-[30%] md:w-[48%] sm:w-[48%] w-full h-auto flex items-center flex-col justify-center">
               <h2 className="text-lg text-gray-200 font-medium mb-4">
-                Serviços
+                Principais Serviços
               </h2>
               <div className="w-full h-auto">
                 <ul className="w-full h-auto space-y-2">
@@ -70,7 +70,7 @@ const Footer  = () => {
             </div>
             <div className="lg:w-[30%] md:w-[48%] sm:w-[48%] w-full h-auto flex items-center flex-col justify-center">
               <h2 className="text-lg text-gray-200 font-medium mb-4">
-                Quick Link
+                Links de Navegação
               </h2>
               <div className="w-full h-auto">
                 <ul className="w-full h-auto space-y-2">
@@ -99,34 +99,22 @@ const Footer  = () => {
         </div>
 
         {/* Copyright */}
-        <div className="w-full h-1[1.5px] flex-items-center lg:bg-gray-900 md:bg-gray-900
-        sm:bg-transparent bg-transparent relative">
-          <div className="w-full h-auto flex items-center lg:justify-between 
-          md:justify-between sm:justify-center justify-center absolute -top-4 left-[50%] 
-          translate-x-[-50%] flex-wrap-reverse gap-y-4"></div>
-            <p className="text-sm text-gray-400 font-normal lg:bg-gray-900 md:bg-gray-900 
-            sm:bg-transparent bg-transparent py-1 px-4 rounded-md">
-              © 2024 EriveltonJr. Todos os direitos reservados.
-            </p>
-          <div className="w-auto h-auto flex items-center justify-center">
-            <ul className="w-full h-auto flex items-center justify-center gap-x-4">
-              <li className="w-8 h-8 cursor-pointer flex items-center justify-center bg-indigo-900 py-1 px-4 rounded-md text-white hover:text-white ease-out duration-700">
-                <a href="/" target="_blank">
-                  <Github className="w-5 h-5" />
-                </a>
-              </li>
-              <li className="w-8 h-8 cursor-pointer flex items-center justify-center bg-indigo-900 py-1 px-4 rounded-md text-white hover:text-white ease-out duration-700">
-                <a href="/" target="_blank">
-                  <Instagram className="w-5 h-5" />
-                </a>
-              </li>
-              <li className="w-8 h-8 cursor-pointer flex items-center justify-center bg-indigo-900 py-1 px-4 rounded-md text-white hover:text-white ease-out duration-700">
-                <a href="/" target="_blank">
-                  <Linkedin className="w-5 h-5" />
-                </a>
-              </li>
-            </ul>
-          </div> 
+        <div className="w-full flex flex-col items-center justify-between py-4 border-t border-gray-400">
+          <p className="text-sm text-gray-400 font-normal">
+            © 2024 EriveltonJr. Todos os direitos reservados.
+          </p>
+          
+          <div className="flex items-center justify-center gap-4 mt-2">
+            <a href="https://github.com/EriveltonJr/projeto-final-1.0.git" target="_blank" className="w-8 h-8 flex items-center justify-center bg-transparent text-white hover:text-gray-400">
+              <Github className="w-5 h-5" />
+            </a>
+            <a href="https://www.instagram.com/francisco.erivelton/" target="_blank" className="w-8 h-8 flex items-center justify-center bg-transparent text-white hover:text-gray-400">
+              <Instagram className="w-5 h-5" />
+            </a>
+            <a href="https://www.linkedin.com/in/francisco-erivelton-a35374273/" target="_blank" className="w-8 h-8 flex items-center justify-center bg-transparent text-white hover:text-gray-400">
+              <Linkedin className="w-5 h-5" />
+            </a>
+          </div>
         </div>
       </div>
     </>
