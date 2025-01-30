@@ -1,23 +1,15 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3001';
+const API_URL = 'http://localhost:8080';
 
-export const getUsers = async () => {
+export const loginUser = async (credentials) => {
   try {
-    const response = await axios.get(`${API_URL}/usuarios`);
-    return response.data;
+    const response = await axios.post(`${API_URL}/login`, credentials, {
+      withCredentials: true, // Permite o envio de cookies/tokens
+    });
+    return response.data; // Retorna os dados do usuário ou token
   } catch (error) {
-    console.error('Erro ao buscar usuários', error);
-    throw error;
-  }
-};
-
-export const createUser = async (user) => {
-  try {
-    const response = await axios.post(`${API_URL}/usuarios`, user);
-    return response.data;
-  } catch (error) {
-    console.error('Erro ao criar usuário', error);
+    console.error('Erro no login', error);
     throw error;
   }
 };

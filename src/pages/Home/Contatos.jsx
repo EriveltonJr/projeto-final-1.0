@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Dumbbell } from 'lucide-react';
 
 const Contatos = () => {
@@ -6,32 +6,11 @@ const Contatos = () => {
     const contatoData = [
         {
           id: 1,
-          contatoImg: "https://avatars.githubusercontent.com/u/100245434?s=400&u=49c2423bc7fac113028d5aa9d8ec868f9349bea9&v=4",
-          name: "Erivelton Jr",
-          Profissão: "Dev. Full Stack",
-          github: "https://github.com/EriveltonJr" 
-        },
-        {
-          id: 2,
-          contatoImg: "https://avatars.githubusercontent.com/u/127367851?v=4",
-          name: "Maria Emília",
-          Profissão: "Dev. Front-end",
-          github: "https://github.com/Maria-Emilia1" 
-        },
-        {
-          id: 3,
           contatoImg: "https://avatars.githubusercontent.com/u/129105584?v=4",
           name: "Matheus Loran",
           Profissão: "Dev. Back-end",
           github: "https://github.com/MatheusLoran573" 
-        },
-        {
-          id: 4,
-          contatoImg: "https://avatars.githubusercontent.com/u/136371023?v=4",
-          name: "Rodrigo Alves",
-          Profissão: "Dev. Back-end",
-          github: "https://github.com/Rodrigoaaalves" 
-        },
+        }
       ];
       
   return (
