@@ -11,6 +11,27 @@ const Contatos = () => {
           Profissão: "Dev. Back-end",
           github: "https://github.com/MatheusLoran573" 
         }
+        {
+          id: 2,
+          contatoImg: "https://avatars.githubusercontent.com/u/100245434?v=4",
+          name: "Francisco Erivelton",
+          Profissão: "Dev. Full Stack",
+          github: "https://github.com/EriveltonJr" 
+        }
+        {
+          id: 3,
+          contatoImg: "https://avatars.githubusercontent.com/u/127367851?v=4",
+          name: "Maria Emília",
+          Profissão: "Dev. FrontEnd and Designer",
+          github: "https://github.com/Maria-Emilia1" 
+        }
+        {
+          id: 4,
+          contatoImg: "https://avatars.githubusercontent.com/u/136371023?v=4",
+          name: "Rodrigo Alves",
+          Profissão: "Dev. BackEnd",
+          github: "https://github.com/Rodrigoaaalves" 
+        }
       ];
       
   return (
